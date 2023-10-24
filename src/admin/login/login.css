@@ -1,0 +1,81 @@
+/* main {
+  background-image: url(/assets/image/background\ đăng\ ký.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.form-container {
+  min-width: 300px;
+  width: 400px;
+  border-radius: 5px;
+  margin: 100px auto;
+  background-color: transparent;
+  backdrop-filter: blur(4px) brightness(60%);
+  box-shadow: 1px 4px 5px rgb(12, 13, 13);
+}
+
+.form-container * {
+  padding: 3px;
+  margin: 3px 20px;
+  font-size: 12px;
+}
+.form-container input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.form-container button:hover {
+  opacity: 0.7;
+}
+.form-container button {
+  margin-left: 120px;
+  width: 35%;
+  background-color: rgb(191, 88, 88);
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  border: hidden;
+  transition: 0.25s;
+}
+#btn-form-container-login {
+  text-align: center;
+}
+.form-container h2 {
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(151, 24, 24);
+  margin-top: 0px;
+}
+#navigation {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+  color: white;
+}
+.form-container hr {
+  padding: 0;
+  color: white;
+}
+.error {
+  color: rgb(139, 49, 49);
+  padding: 0;
+  margin: 0 0 0 30px;
+  font-size: 0.8;
+}
+
+.form-container label {
+  color: white;
+  margin-left: 10%;
+}
+.form-container a {
+  text-decoration: none;
+  color: rgb(151, 24, 24);
+}
+header {
+  padding: 0 30px;
+}

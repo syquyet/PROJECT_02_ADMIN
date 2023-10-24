@@ -1,0 +1,20 @@
+.dashboard-container{
+    display: grid;
+  grid-template-columns: 1fr 4fr;
+  .total{
+    width: 300px;
+    border: 1px solid rgb(204, 198, 198);
+    background-color: rgb(187, 187, 113);
+   margin: 30px;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1cap rgba(9, 9, 9, 0.3);
+  }
+  .order{
+   border: 1px solid rgb(204, 198, 198);
+   margin: 30px;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1cap rgba(0, 0, 0, 0.3);
+  }
+}

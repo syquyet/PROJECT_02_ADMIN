@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+ .manage-product-input input {
+    width: 70%;
+    border: none;
+    background-color: rgb(232, 241, 241);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    padding: 0 5px;
+   
+  }
+  .manage-product-input button {
+    width: 10%;
+    border: none;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    object-fit: none;
+    padding: 0 3px;
+  margin-right: 5px;
+  }
+  .list-product {
+    width: 100%;
+  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(232, 241, 241);
+    text-align: center;
+  }
+  
+  .list-product th {
+    background-color: rgb(6, 6, 132);
+    color: white;
+  }
+  .list-product .btn-delete {
+    width: 20%;
+    border: none;
+    background-color: rgb(208, 60, 60);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+  }
+  .list-product tr {
+    border-bottom: 1px solid rgb(189, 220, 220);
+  }
+  .list-product tr td {
+    padding: 5px 0;
+  }
+  .list-product .btn-edit {
+    width: 20%;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+  }
+  .list-product .btn-detail {
+    width: 20%;
+    border: none;
+    background-color: rgb(191, 88, 88);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+  }
+  .manage-product-input .btn-add {
+    width: 13%;
+    border: none;
+    background-color: rgb(191, 88, 88);
+    color: white;
+    border-radius: 5px;
+    padding: 0 3px;
+  }
+  .manage-product {
+    border: 1px solid rgb(173, 198, 198);
+    padding: 20px;
+    margin:30px;
+    box-shadow: 1px 2px 4px rgb(186, 112, 78);
+    border-radius: 5px;
+
+  }
+  .form-add-product form {
+    margin: 0px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 5px;
+  }
+  .modal-body {
+    padding: 20px;
+  }
+  

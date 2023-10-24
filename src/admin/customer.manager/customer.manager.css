@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.customer-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.manage_users-input input {
+  width: 87%;
+  border: none;
+  background-color: rgb(232, 241, 241);
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.manage_users-input button {
+  width: 13%;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  color: white;
+  border-radius: 0 5px 5px 0;
+  object-fit: none;
+  padding: 0 3px;
+}
+.list-users {
+  width: 100%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(232, 241, 241);
+  text-align: center;
+}
+
+.list-users th {
+  background-color: rgb(6, 6, 132);
+  color: white;
+}
+.list-users button {
+  width: 40px;
+  border: none;
+  background-color:rgb(68, 103, 216);
+  border-radius: 5px;
+  color: white;
+}
+.list-users tr {
+  border-bottom: 1px solid rgb(189, 220, 220);
+}
+.list-users tr td {
+  padding: 5px 0;
+}
+.manage-user {
+  border: 1px solid rgb(173, 198, 198);
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 1px 2px 4px rgb(186, 112, 78);
+  border-radius: 5px;
+  margin: 30px;
+}
+
